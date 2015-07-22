@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>cssSlider</AppName>
+            <AppUrlS>cssSlider.com</AppUrlS>
+            <AppVersion>2.0</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryDesc></GalleryDesc>
+            <GalleryKeywords></GalleryKeywords>
+            <GalleryName>logoslider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <GalleryTitle></GalleryTitle>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>:/templates/backgnd/flux/</ImageTemplate>
+            <ImageTemplateName>Flux</ImageTemplateName>
+            <ImageWidth>960</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <PlayPause>true</PlayPause>
+            <PublishIndex>cssslider.html</PublishIndex>
+            <PublishPath></PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>60</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>false</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateFont>PT Sans</TemplateFont>
+            <TemplateName>flux</TemplateName>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkHaveBgColor>true</WatermarkHaveBgColor>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <color>#ffffff</color>
+            <descriptionPos>bottomLeft</descriptionPos>
+            <enableTouch>false</enableTouch>
+            <fullWidth>true</fullWidth>
+            <ieSupport>true</ieSupport>
+            <noFrame>false</noFrame>
+            <showHover>true</showHover>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/ASM-Logo_Grey.png</url>
+                <title>ASM-Logo_Grey</title>
+            </Image>
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/CinBell_Logo_Grey.png</url>
+                <title>CinBell_Logo_Grey</title>
+            </Image>
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/Drees-Logo_Grey.png</url>
+                <title>Drees-Logo_Grey</title>
+            </Image>
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/hollywood-casino-logo_grey.png</url>
+                <title>hollywood-casino-logo_grey</title>
+            </Image>
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/McDonalds-Logo_Grey.png</url>
+                <title>McDonalds-Logo_Grey</title>
+            </Image>
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/Pure-Romance-Logo_Grey.png</url>
+                <title>Pure-Romance-Logo_Grey</title>
+            </Image>
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/Receptions-Logo_Grey.png</url>
+                <title>Receptions-Logo_Grey</title>
+            </Image>
+            <Image>
+                <url>/Users/EileenMarie/Documents/Capstory/Final Temp Site Resp Grid Sys/Vonderhaars-Logo_Grey.png</url>
+                <title>Vonderhaars-Logo_Grey</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

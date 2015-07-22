@@ -1,0 +1,347 @@
+/*Responsive Stuff*/
+html, body, .container {
+    height: 100%;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: table;
+  vertical-align: middle;
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 960px;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body{
+	margin:0
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*Nav Bar*/
+.navbar{
+	margin: 0;
+	padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 12%;
+	text-align: right;
+}
+
+.styleNavBar{
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: bold; 
+	font-size: 16px; 
+	font-weight: 300; 
+	color: #FFFDEA; 
+	text-decoration: none;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.navbar-inverse {
+    border-color: transparent;
+    background: transparent;
+}
+.navbar-nav{
+	margin: 7.5px -15px;
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+	color:#434244;
+	background-color:#080808;
+}
+.navbar-inverse .navbar-text{
+	color:#fff;
+}
+
+/*End Navbar stuff*/
+
+
+/*Section One*/
+.largeCreamLogoStyle{
+	width: 38%; 
+	height: auto; 
+	margin-bottom: 20px; 
+	padding-top: 1.5%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.sectionOneBackgroundImage{
+	height:auto;
+	background-color: #F16524;
+}
+.logoWrapper{
+    float: left;
+    height: auto;
+}
+.sectionSeparator{
+	border-bottom: 2.2px solid #434244;
+	width: 100%;
+}
+
+/*Section Two*/
+
+.sectionTwoBackground{
+	background-color: #FFFDEA;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.sectionTwoHeaderText{
+	font-size: 1.5em ;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 4.1%;
+	padding-bottom: 3.2%;
+	padding-right: 15%;
+	padding-left: 15%;
+	color: #434244;
+
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 15px 4px 17px 0;
+}
+
+.buttonWrapper{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+.requestDemoButton{
+	width: 100%;
+	display: block;
+	margin-bottom: 0; 
+    padding-left: 30%;
+	padding-right: 30%;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.sectionOneBorderWrapper{
+    width: 100%;
+}
+.sectionOneBorder{
+	border-bottom: 3px dotted;
+	border-color: #F16524;
+	width: 33%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3.2%;
+	margin-bottom: 4.1%; 
+}
+
+/*Logo Section*/
+.logoTextWrapper{
+    padding-bottom: 4.2%;
+}
+.logoText{
+	font-size: 1em ;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: left;
+	color: #434244;
+}
+
+/*Section Three*/
+
+.sectionThreeBackgroundImage{
+    height:20%;
+    background-image: url("sectionThreeBackground.png");
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionThreeTextWrapper{
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.formatTestimonialText{
+    width:52%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.sectionThreeTextPartTwo{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFDEA;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.testimonialBorderWrapper{
+    width: 100%;
+}
+.testimonialBorder{
+    border-bottom: 1px dotted;
+    border-color: #FFFDEA;
+    width: 100%;
+    margin-top: 1.1%;
+    margin-bottom: 1.1%; 
+}
+
+.sectionThreeTextPartFour{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDEA;
+    font-size: 22px;
+    font-weight:300;
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+
+/*Section Four*/
+
+
+/*Section Five*/
+.sectionFiveBackgroundImage{
+    height:20%;
+    background-image: url("sectionThreeBackground.png");
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.testimonialBorderWrapperSecFive{
+    width: 95%;
+}
+.testimonialBorderSecFive{
+    border-bottom: 1px dotted;
+    border-color: #FFFDEA;
+    width: 100%;
+    margin-top: 1.1%;
+    margin-bottom: 1.1%; 
+}
+.sectionThreeText{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDEA;
+    font-size: 16px;
+    font-weight:300;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+.sectionThreeTextPartThree{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFDEA;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+.sectionThreeTextPartFive{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDEA;
+    font-size: 14px;
+    font-weight:300;
+    margin: 0;  
+    display: inline-block;
+}
+.sectionThreeTextFiveB{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFDEA;
+    font-size: 14px;
+    margin: 0;
+    display: inline-block;
+}
+/*Section Six*/
+
+
+/*Section Seven*/
+.sectionSeparatorBottom{
+    border-bottom: 2.2px solid #F16524;
+    width: 100%;
+}
+.sectionSevenBackgroundImage{
+    height:auto;
+    background-image: url("Capstory-Footer.png");
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionSevenElements{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFDEA;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+.requestADemo{
+    display: inline-block;
+    text-align: center;
+}
+
+.social{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+/*Media Queries*/
+@media(max-width: 768px){
+    .img-responsive{
+        width: 100%;
+    }
+    .row {
+    width: 78%;
+    }
+
+}
+@media(max-width: 320px){
+    .img-responsive{
+        width: 100%;
+    }
+    .row {
+    width: 78%;
+    }
+
+}
