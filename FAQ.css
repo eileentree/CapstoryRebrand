@@ -119,30 +119,64 @@ body{
 	color: #434244;
 
 }
-
-ul{
-    list-style: none;
+.circle {
+  width: 15%;
+  height: 0;
+  padding-bottom: 15%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ccc;
+  position: relative;
+  border: none;
+}
+.circle:before {
+  content: '';
+  display: block;
+  border-top: solid 10px transparent;
+  border-left: solid 10px #FFF;
+  border-bottom: solid 10px transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -10px 0 0 -3px;
+}
+.questionHolder{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.questionText{
+    font-size: 1em ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     text-align: left;
-    margin: 0;
-    padding: 15px 4px 17px 0;
+    color: #434244;
+    padding-bottom: 3%;
 }
-
+.questionAnswer{
+    font-size: 1em ;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: #434244;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
 .buttonWrapper{
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 5%;
-
+    padding-top: 3%;
+    padding-bottom: 8%;
 }
-.requestDemoButton{
-	width: 100%;
-	display: block;
-	margin-bottom: 0; 
-    padding-left: 30%;
-	padding-right: 30%;
-	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-	
+.button{
+    background: #F16524;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDEA;
+    font-size: 15px;
+    height: 50px;
+    width: 350px;
+    border: none;
 }
 .sectionOneBorderWrapper{
     width: 100%;
@@ -155,6 +189,15 @@ ul{
 	margin-left: auto;
 	margin-top: 3.2%;
 	margin-bottom: 4.1%; 
+}
+.sectionOneBorderBelowQues{
+    border-bottom: 3px dotted;
+    border-color: #F16524;
+    width: 62%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3.2%;
+    margin-bottom: 4.1%; 
 }
 
 /*Logo Section*/
@@ -308,6 +351,7 @@ ul{
     padding-bottom: 2%;
     margin-right: auto;
     margin-left: auto;
+    vertical-align: top;
 }
 .contact{
     font-family: 'Open Sans', sans-serif;
@@ -316,15 +360,26 @@ ul{
     margin: 0;
     display: inline-block;
     text-align: left;
+    padding-right: 12%;
 }
 .requestADemo{
     display: inline-block;
     text-align: center;
+    vertical-align: top;
+
 }
 
 .social{
     padding-top: 4%;
     padding-bottom: 4%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.bugLogo{
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding-left: 16.2%;
 }
 /*Media Queries*/
 @media(max-width: 768px){

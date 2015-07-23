@@ -128,22 +128,17 @@ body{
 	padding-right: 13%;
 	padding-bottom: 3.2%;
 }
-.buttonWrapper{
-    text-align: center;
-    padding-top: .7%;
-    padding-bottom: .5%;
-
-}
-.requestDemoButton{
-	width: 100%;
-	display: block;
-	margin-bottom: 0; 
-    padding-left: 30%;
-	padding-right: 30%;
-	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-	
+.button{
+    background: #F16524;
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFDEA;
+    font-size: 15px;
+    height: 50px;
+    width: 350px;
+    border: none;
 }
 .sectionOneBorderWrapper{
     width: 100%;
@@ -363,6 +358,7 @@ img {
     padding-bottom: 2%;
     margin-right: auto;
     margin-left: auto;
+    vertical-align: top;
 }
 .contact{
     font-family: 'Open Sans', sans-serif;
@@ -371,15 +367,25 @@ img {
     margin: 0;
     display: inline-block;
     text-align: left;
+    padding-right: 12%;
 }
 .requestADemo{
     display: inline-block;
     text-align: center;
+    vertical-align: top;
 }
 
 .social{
     padding-top: 4%;
     padding-bottom: 4%;
+    padding-left: auto;
+    padding-right: auto;
+}
+.bugLogo{
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding-left: 11.8%;
 }
 /*Media Queries*/
 @media(max-width: 320px){
