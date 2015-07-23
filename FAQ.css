@@ -40,8 +40,8 @@ body{
 /*Nav Bar*/
 .navbar{
 	margin: 0;
-	padding-top: 4%;
-    padding-bottom: 4%;
+	padding-top: 3.5%;
+    padding-bottom: 3.5%;
     padding-right: 12%;
 	text-align: right;
 }
@@ -119,28 +119,37 @@ body{
 	color: #434244;
 
 }
-.circle {
-  width: 15%;
-  height: 0;
-  padding-bottom: 15%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background: #ccc;
-  position: relative;
-  border: none;
+.round-button {
+    width:5%;
+    vertical-align: top;
 }
-.circle:before {
-  content: '';
-  display: block;
-  border-top: solid 10px transparent;
-  border-left: solid 10px #FFF;
-  border-bottom: solid 10px transparent;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -10px 0 0 -3px;
+.round-button-circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #F16524; 
 }
+.arrowText{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.round-button-circle:hover {
+    background:#BF501A;
+}
+.round-button a {
+    display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+}
+
 .questionHolder{
     width: 500px;
     margin-left: auto;
@@ -153,6 +162,7 @@ body{
     text-align: left;
     color: #434244;
     padding-bottom: 3%;
+    display: inline-block;
 }
 .questionAnswer{
     font-size: 1em ;
