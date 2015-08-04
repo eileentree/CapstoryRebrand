@@ -38,37 +38,49 @@ body{
 }
 
 /*Nav Bar*/
+.hamburgerBackground{
+    display: none;
+}
+.hamburgerButton{
+    display: none;
+}
 .navbar{
-	margin: 0;
-	padding-top: 3.5%;
+    margin: 0;
+    padding-top: 3.5%;
     padding-bottom: 3.5%;
     padding-right: 12%;
-	text-align: right;
+    text-align: right;
+}
+a:visited{
+    color: #BAB8AD;
+}
+a:active{
+    font-weight: bold;
 }
 
 .styleNavBar{
-	font-family: 'Open Sans', sans-serif; 
-	font-weight: bold; 
-	font-size: 16px; 
-	font-weight: 300; 
-	color: #FFFDEA; 
-	text-decoration: none;
-	padding-left: 2%;
-	padding-right: 2%;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold; 
+    font-size: 16px; 
+    font-weight: 300; 
+    color: #FFFDEA; 
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 4%;
 }
 .navbar-inverse {
     border-color: transparent;
     background: transparent;
 }
 .navbar-nav{
-	margin: 7.5px -15px;
+    margin: 7.5px -15px;
 }
 .navbar-inverse .navbar-nav>.active>a:hover{
-	color:#434244;
-	background-color:#080808;
+    color:#434244;
+    background-color:#080808;
 }
 .navbar-inverse .navbar-text{
-	color:#fff;
+    color:#fff;
 }
 
 /*End Navbar stuff*/
@@ -76,10 +88,12 @@ body{
 
 /*Section One*/
 .largeCreamLogoStyle{
-	width: 38%; 
+	width: 13%; 
 	height: auto; 
+    float: left;
 	margin-bottom: 20px; 
 	padding-top: 1.5%;
+    padding-left: 18%;
 	display: block;
     margin-left: auto;
     margin-right: auto
@@ -113,15 +127,13 @@ body{
 	font-weight: 700;
 	text-align: center;
 	padding-top: 4.1%;
-	padding-bottom: 3.2%;
 	padding-right: 15%;
 	padding-left: 15%;
 	color: #434244;
 
 }
 .round-button {
-    width:5%;
-    vertical-align: top;
+    width:7%;
 }
 .round-button-circle {
     width: 100%;
@@ -149,7 +161,9 @@ body{
     line-height:1em;
     margin-top:-0.5em;
 }
-
+.verticalLine{
+    border-left: thin solid #84837D;
+}
 .questionHolder{
     width: 500px;
     margin-left: auto;
@@ -162,19 +176,23 @@ body{
     text-align: left;
     color: #434244;
     padding-bottom: 3%;
-    display: inline-block;
+    /*display: inline-block;*/
+}
+.questionWrapper{
+    padding-bottom: 7%;
+    max-width: 100%;
 }
 .questionAnswer{
     font-size: 1em ;
     font-family: 'Open Sans', sans-serif;
     text-align: left;
-    color: #434244;
+    color: #84837D;
     padding-left: 3%;
     padding-bottom: 3%;
 }
 .buttonWrapper{
-    padding-top: 3%;
-    padding-bottom: 8%;
+    padding-top: 3.2%;
+    padding-bottom: 3.2%;
 }
 .button{
     background: #F16524;
@@ -203,11 +221,10 @@ body{
 .sectionOneBorderBelowQues{
     border-bottom: 3px dotted;
     border-color: #F16524;
-    width: 62%;
+    width: 33%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 3.2%;
-    margin-bottom: 4.1%; 
+
 }
 
 /*Logo Section*/
@@ -336,9 +353,14 @@ body{
     display: inline-block;
 }
 /*Section Six*/
-
+ .sectionSixBackgroundMobile{
+    display: none;
+}
 
 /*Section Seven*/
+.sectionSevenBackgroundImageMobile{
+    display: none;
+}
 .sectionSeparatorBottom{
     border-bottom: 2.2px solid #F16524;
     width: 100%;
@@ -357,7 +379,7 @@ body{
 
 .sectionSevenElements{
     text-align: center;
-    padding-top: 2%;
+    padding-top: 3.5%;
     padding-bottom: 2%;
     margin-right: auto;
     margin-left: auto;
@@ -380,7 +402,7 @@ body{
 }
 
 .social{
-    padding-top: 4%;
+    padding-top: 5.5%;
     padding-bottom: 4%;
     padding-left: auto;
     padding-right: auto;
@@ -392,21 +414,449 @@ body{
     padding-left: 16.2%;
 }
 /*Media Queries*/
+
+
+@media(max-width: 960px){
+    .img-responsive{
+        width: 100%;
+    }
+    .row {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    .navbar{
+        display: block;
+    }
+    .questionWrapper{
+        width: 100%;
+    }
+    .questionAnswer{
+        width: 80%;
+    }
+    .sectionOneBorder{
+        width: 60%; 
+        margin-bottom: 6%;       
+    }
+    .sectionOneBorderBelowQues{
+        width: 60%;
+    }
+    .formatTestimonialText{
+        width:100%;
+    }
+/*Section Five*/
+    .testimonialBorderSecFive{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .sectionThreeText{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartTwo{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartThree{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartFour{
+        font-size: 18px;
+    }
+    .sectionThreeTextPartFiveWrapper{
+        padding-top: 3%;
+    }
+    .sectionThreeTextPartFive{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartFiveB{
+        font-size: 12px;
+    }
+/*    Section Six mobile view: Demo button*/
+    .sectionSixBackgroundMobile{
+        background-color: #FFFDEA;
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+        display: block;
+        
+    }
+    /*Section Seven*/
+    .sectionSevenBackgroundImage{
+        display: none;
+    }
+    .sectionSevenBackgroundImageMobile{
+        display: block;
+        height: auto;
+        background-image: url("Capstory-Footer.png");
+        -webkit-background-size: cover;
+        -moz-background-size:cover;
+        -o-background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .sectionSevenElementsMobile{
+        display: block;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        vertical-align: top;
+    }
+    .capstoryMobileIcon{
+        width: 15%; 
+        vertical-align: top; 
+        margin:0; 
+        float: right; 
+        padding-right: 5.5%;
+    }
+    .contactMobile{
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        color: #FFFDEA;
+        font-size: 16px;
+        margin: 0;
+        display: inline-block;
+        float: left;
+        text-align: left;
+        padding-left: 7%;
+    }
+    .requestADemoMobile{
+        display: block;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+    }
+
+    .socialMobile{
+        display: block;
+        padding-top: 5.5%;
+        padding-bottom: 4%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .FacebookMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0; 
+    }
+    .TwitterMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0; 
+    }
+    .LinkedInMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0;
+    }
+    .InstagramMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0; 
+    }
+    .TwitterMobile{
+        padding-left: 3%;
+        padding-right:11%;
+    }
+    .FacebookMobile{
+        padding-right:11%;
+    }
+    .InstagramMobile{
+        padding-right:11%;
+    }
+    .LinkedInMobile{
+        padding-right:3%;
+    }
+
+
+}
 @media(max-width: 768px){
     .img-responsive{
         width: 100%;
     }
     .row {
-    width: 78%;
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    /*NavBar Stuff*/
+    .styleNavBar{
+        display: none;
+    }
+    .largeCreamLogoStyle{
+        width: 32%; 
+        padding-top: 5%; 
+        padding-left: 0;
+        float: left;
+
+    }
+    .hamburgerBackground{
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: #FFFDEA;
+        height: auto;
+    }
+
+    .mobileWrapper{
+        display: block;
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        height: 76px;
+    }
+
+    .hamburgerButton{
+        display: block;
+        width: 7%;
+        float: right;
+    }
+    .navbar{
+        display: block;
+    }
+    /*End NavBar*/
+    .questionWrapper{
+        width: 70%;
+    }
+    .questionAnswer{
+        font-size: .7em;
+        max-width: 60%;
+    }
+    .sectionOneBorder{
+        width: 60%; 
+        margin-bottom: 6%;       
+    }
+    .sectionOneBorderBelowQues{
+        width: 80%;
+    }
+    .formatTestimonialText{
+        width:100%;
+    }
+/*Section Five*/
+    .testimonialBorderSecFive{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .sectionThreeText{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartTwo{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartThree{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartFour{
+        font-size: 18px;
+    }
+    .sectionThreeTextPartFiveWrapper{
+        padding-top: 3%;
+    }
+    .sectionThreeTextPartFive{
+        font-size: 12px;
+    }
+    .sectionThreeTextPartFiveB{
+        font-size: 12px;
+    }
+/*    Section Six mobile view: Demo button*/
+    .sectionSixBackgroundMobile{
+        background-color: #FFFDEA;
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+        display: block;
+        
+    }
+
+    /*Section Seven*/
+    .sectionSevenBackgroundImage{
+        display: none;
+    }
+    .sectionSevenBackgroundImageMobile{
+        display: block;
+        height: auto;
+        background-image: url("Capstory-Footer.png");
+        -webkit-background-size: cover;
+        -moz-background-size:cover;
+        -o-background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .sectionSevenElementsMobile{
+        display: block;
+        padding-top: 6%;
+        padding-bottom: 2%;
+        vertical-align: top;
+    }
+    .capstoryMobileIcon{
+        width: 15%; 
+        vertical-align: top; 
+        margin:0; 
+        float: right; 
+        padding-right: 5.5%;
+    }
+    .contactMobile{
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        color: #FFFDEA;
+        font-size: 16px;
+        margin: 0;
+        display: inline-block;
+        float: left;
+        text-align: left;
+        padding-left: 7%;
+    }
+    .requestADemoMobile{
+        display: block;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+    }
+
+    .socialMobile{
+        display: block;
+        padding-top: 5.5%;
+        padding-bottom: 4%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .FacebookMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0; 
+    }
+    .TwitterMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0; 
+    }
+    .LinkedInMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0;
+    }
+    .InstagramMobile img{
+        display: inline-block;
+        width: 70%; 
+        border:0; 
+    }
+    .TwitterMobile{
+        padding-left: 4%;
+        padding-right:11%;
+    }
+    .FacebookMobile{
+        padding-right:11%;
+    }
+    .InstagramMobile{
+        padding-right:11%;
+    }
+    .LinkedInMobile{
+        padding-right:4%;
     }
 
 }
-@media(max-width: 320px){
+@media(max-width: 380px){
     .img-responsive{
         width: 100%;
     }
     .row {
-    width: 78%;
+    width: 85%;
+    }
+    .sectionOneBorder{
+        margin-top: 6%;
+        width:80%;
     }
 
+    /*Hamburger Button*/
+    .hamburgerBackground{
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: #FFFDEA;
+        height: auto;
+    }
+
+    .mobileWrapper{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 56px;
+    }
+
+    .largeCreamLogoStyle{
+        width: 38%;
+        padding-top: 6%; 
+        padding-left: 0;
+    }
+    .hamburgerButton{
+        width: 10%;
+        padding-top: 9%;
+        float: right;
+    }
+
+    .styleNavBar{
+        display: none;
+    }
+    .orangeLogoWrapper{
+        padding-left: 3%;
+        padding-top: 3%;
+        display: inline-block;
+    }
+
+    .menu{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        padding-top: 1.5%;
+        padding-bottom: 2%;
+        text-align: center;
+        text-decoration: none;
+    }
+    .hamburgerBorder{
+        border-bottom: 1px solid #84837D;
+        width: 100%;
+    }
+    
+    .buttonWrapperHamburger{
+        display: block;
+        padding-top: 4%;
+        padding-bottom: 8%;
+        display: block;
+        text-align: center;
+    }
+    .buttonHamburger{
+        background: #F16524;
+        -webkit-border-radius: 5;
+        -moz-border-radius: 5;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFDEA;
+        font-size: 15px;
+        height: 50px;
+        border: none;
+        width: 80%;
+        text-align: center;
+    }
+    .button{
+        width: 95%;
+    }
+    .buttonWrapper{
+        display: block;
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+
+    /*Hamburger Button End*/
+    .sectionSevenElementsMobile{
+        padding-top: 5%;
+    }
 }
