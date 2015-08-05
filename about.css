@@ -168,7 +168,7 @@ a:active{
 
 .sectionThreeBackgroundImage{
     height:auto;
-    background-image: url("WeddingBackgroundOne.png");
+    background-image: url("images/WeddingBackgroundOne.png");
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
@@ -312,7 +312,7 @@ a:active{
 }
 .sectionSevenBackgroundImage{
     height:auto;
-    background-image: url("Capstory-Footer.png");
+    background-image: url("images/Capstory-Footer.png");
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
@@ -441,7 +441,7 @@ a:active{
     .sectionSevenBackgroundImageMobile{
         display: block;
         height: auto;
-        background-image: url("Capstory-Footer.png");
+        background-image: url("images/Capstory-Footer.png");
         -webkit-background-size: cover;
         -moz-background-size:cover;
         -o-background-size: cover;

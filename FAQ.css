@@ -243,7 +243,7 @@ a:active{
 
 .sectionThreeBackgroundImage{
     height:20%;
-    background-image: url("sectionThreeBackground.png");
+    background-image: url("images/sectionThreeBackground.png");
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
@@ -301,7 +301,7 @@ a:active{
 /*Section Five*/
 .sectionFiveBackgroundImage{
     height:20%;
-    background-image: url("sectionThreeBackground.png");
+    background-image: url("images/sectionThreeBackground.png");
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
@@ -367,7 +367,7 @@ a:active{
 }
 .sectionSevenBackgroundImage{
     height:auto;
-    background-image: url("Capstory-Footer.png");
+    background-image: url("images/Capstory-Footer.png");
     -webkit-background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
@@ -487,7 +487,7 @@ a:active{
     .sectionSevenBackgroundImageMobile{
         display: block;
         height: auto;
-        background-image: url("Capstory-Footer.png");
+        background-image: url("images/Capstory-Footer.png");
         -webkit-background-size: cover;
         -moz-background-size:cover;
         -o-background-size: cover;
@@ -613,6 +613,7 @@ a:active{
     .hamburgerButton{
         display: block;
         width: 7%;
+        padding-top: 8%;
         float: right;
     }
     .navbar{
@@ -679,7 +680,7 @@ a:active{
     .sectionSevenBackgroundImageMobile{
         display: block;
         height: auto;
-        background-image: url("Capstory-Footer.png");
+        background-image: url("images/Capstory-Footer.png");
         -webkit-background-size: cover;
         -moz-background-size:cover;
         -o-background-size: cover;
