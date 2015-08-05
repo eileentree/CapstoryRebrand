@@ -132,16 +132,10 @@ a:active{
 	color: #434244;
 
 }
-.round-button {
-    width:7%;
-}
-.round-button-circle {
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    border-radius: 50%;
-    overflow:hidden;
-    background: #F16524; 
+.arrow img{
+    width: 5%;
+    vertical-align: middle;
+    padding-right: 2%;
 }
 .arrowText{
     width: 960px;
@@ -180,6 +174,7 @@ a:active{
 }
 .questionWrapper{
     padding-bottom: 7%;
+    padding-left: 8.5%;
     max-width: 100%;
 }
 .questionAnswer{
@@ -626,6 +621,9 @@ a:active{
     .questionAnswer{
         font-size: .7em;
         max-width: 60%;
+    }
+    .arrow{
+        font-size: .9em;
     }
     .sectionOneBorder{
         width: 60%; 
